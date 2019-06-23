@@ -1,4 +1,4 @@
-<h1>Preoznavanje (verifikacija) off-line potpisa uz pomoć usporedbe globalnih obilježja</h1>
+<h1>Prepoznavanje i verifikacija off-line potpisa uz pomoć usporedbe globalnih obilježja</h1>
 
 <h4>Fakultet Organizacije i informatike, Varaždin</h4>
 <p>Ovaj projekt rađen je za potrebe praktičnog dijela iz seminarskog rada na kolegiju Poslovna primjena biometrijskih tehnologija</p>
