@@ -36,8 +36,8 @@ def main():
     #   korisnik  - 1,2,3, ... broj direktorija u kojemu su slike
     #   spremi    - spremi u TXT file
     #
-    # Generiranjem datoteka moguće je te podatke ubaciti u DM model i
-    # na temelju toga dobiti podatke na koji način je potrebno "vagati" pojedine parametre
+    # Generiranjem datoteke sa obilježjima moguće je te podatke učitati u Data Mining alat (Knime, Weka...) i
+    # na temelju analize određenog modela dobiti kontribuciju pojedinog parametra.  
     # ------------------------------------------------------------------------------------------------------------------
     #
 
@@ -47,8 +47,9 @@ def main():
 
     # ------------------------------------------------------------------------------------------------------------------
     # Pošto trenutno nemamo dovoljno vremena za daljnje modeliranje i implementaciju sustava neuronskih mreža ili
-    # nekog drugog klasifikatora, za primjer smo uzeli parametre potpisa za određeni broj instanci te su na temelju toga
-    # izvedene srednje vrijednosti (ponderane) kako bi se dobila jedinstvena klasifikacija (predložak) za usporedbu
+    # nekog drugog klasifikatora, za primjer su uzeti parametri potpisa za određeni broj instanci te su na temelju toga
+    # izvedene srednje vrijednosti (ponderi) kako bi se na temelju toga dobila jedinstvena klasifikacija (predložak) 
+    # za uspoređivanje sa testnim uzorkom.
     # ------------------------------------------------------------------------------------------------------------------
     #
     print "Radim..."
